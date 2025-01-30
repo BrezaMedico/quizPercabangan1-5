@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const nilai = prompt("tuliskan nilai anda");
+
+        if (nilai <= 100 && nilai >= 85) {
+        document.write('Nilai = A');
+        } else if (nilai < 84 && nilai >= 70) {
+        document.write('nilai = B');
+        } else if (nilai < 69 && nilai >= 50) {
+        document.write('nilai = C');
+        } else if (nilai < 49 && nilai >= 30) {
+        document.write('nilai = D');
+        } else if (nilai < 29 && nilai >= 0) {
+        document.write('nilai = E');
+        } else {
+        document.write('Nilai tidak valid');
+        }
+    </script>
+</body>
+</html>
